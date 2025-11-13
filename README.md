@@ -45,6 +45,19 @@ env\Scripts\activate
 ```cmd
 pip install -r requirements.txt
 ```
+
+### 4. Install torch, torchvision and torchaudio 
+- <b>For GPU</b>
+```cmd
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130
+```
+
+- <b> For CPU </b>
+```cmd
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+```
+
+
 ---
 
 After activating virtual environment in VSCode Tasks will run smoothly as expected.
